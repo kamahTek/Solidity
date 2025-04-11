@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"Contracts/Sessions/Lesson_1.sol": {
-			"keccak256": "0x01a2d0d72d5d81799a6235618911d3f41610ebb356080819e00ccd85b91d6fdd",
+			"keccak256": "0x393923463352ccd989a0a2e184d31c96531657f5347776aeab9e3dd01bf99b37",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4dc3b879c21b723dd38d00c54b9a666c45df82fbe4ff7aefeee90684457bc7f8",
-				"dweb:/ipfs/QmQ9gPHFVhLbQ5YPh5FpL6hpH36PpDFDgpmYhFnAQqMbmr"
+				"bzz-raw://a697ed810097bfe5aa429062f142e39a0eeb6cb3982388b2e1fc420ee3f64ab3",
+				"dweb:/ipfs/QmX4zTY8aVFSmSwkX2DxLC3ifoMYUv4TCYnXiB6BvwcDtv"
 			]
 		}
 	},
