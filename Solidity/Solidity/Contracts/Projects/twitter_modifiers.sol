@@ -45,6 +45,21 @@ contract twitterModifiers{
         tweets[msg.sender].push(newTweets);
     }
 
+    function likeTweet(address _owner, uint _id) public{
+        require(tweets[_owner][_id].id == _id,"INVALID TWEET INDEX");
+        
+        //Increase the like of a tweet
+        tweets[msg.sender][_id].likes++;
+    }
+
+    function unlikeTweet(address _owner, uint _id) public{
+        require(tweets[_owner][_id].id == _id,"INVALID TWEET INDEX");
+        require(tweets[_owner][_id].likes > 0,"TWEET HAS NO LIKES");
+        
+        //Increase the like of a tweet
+        tweets[msg.sender][_id].likes--;
+    }
+
     function changeTweetLength(uint16 newTweetLength) public onlyOwner{
         MAX_TWEET_LENGTH = newTweetLength;
     }

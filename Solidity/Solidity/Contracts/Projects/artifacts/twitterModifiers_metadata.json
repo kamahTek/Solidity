@@ -96,6 +96,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "likeTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -202,6 +220,24 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "unlikeTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -232,11 +268,11 @@
 	},
 	"sources": {
 		"Solidity/Solidity/Contracts/Projects/twitter_modifiers.sol": {
-			"keccak256": "0xc2f92829d8a73cdea4d037f687c65a5a6f575f5bebd9e80c526fda9593920399",
+			"keccak256": "0x0b83ffefc03f20a4d5b6e1086cd21f7aea5b98ab38710c9aecfc79f53661d0b0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9beb501728bdcffd7dbac7c7da95a57d924dab5690facb17978b8c25995ae08",
-				"dweb:/ipfs/Qmdszh9bp9QRY1pHpAQmWdYK4Yf6GrNwPuvVcgj7UB9ceM"
+				"bzz-raw://3bf7600ec5f065cd92cb99ad69d03c29efd6d514d96b0a7c2e339d65cd3197f9",
+				"dweb:/ipfs/QmdMUBnqLVCVibmt533RaY3vRFjXAtoWAKsdTrcLQ8eF7M"
 			]
 		}
 	},
