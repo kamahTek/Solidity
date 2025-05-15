@@ -68,7 +68,7 @@ contract twitterModifiers{
     function getTweets(address _author) external view returns (Tweet[] memory){
         return tweets[_author];
     }
-
+    
     //Get the tweet by its index
     function singleTweet(address _author, uint _i) external view returns (Tweet memory){
         return tweets[_author][_i];
